@@ -1,0 +1,81 @@
+.nav > li > .dropdown-toggle {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    background-color: #eee;
+  }
+}
+
+.navbar > li > .dropdown-toggle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+.main-header .navbar .nav>li>.dropdown-toggle>.label {
+  position: absolute;
+  top: 9px;
+  right: 7px;
+  text-align: center;
+  font-size: 9px;
+  padding: 2px 3px;
+  line-height: .9;
+}
+
+.skin-green-light .main-header .navbar .nav {
+  & > li > .dropdown-toggle {
+    color: #fff;
+  }
+
+  & > .active > .dropdown-toggle,
+  & > li > .dropdown-toggle:hover,
+  & > li > .dropdown-toggle:active,
+  & > li > .dropdown-toggle:focus,
+  & > li.open > .dropdown-toggle,
+  & > li.open > .dropdown-toggle:hover,
+  & > li.open > .dropdown-toggle:focus {
+    background: rgba(0,0,0,0.1);
+    color: #f6f6f6;
+  }
+}
+
+.skin-green-light .main-header .navbar .nav>li>a:hover,
+.skin-green-light .main-header .navbar .nav>li>a:active, .skin-green-light .main-header .navbar .nav>li>a:focus, .skin-green-light .main-header .navbar .nav .open>a, .skin-green-light .main-header .navbar .nav .open>a:hover, .skin-green-light .main-header .navbar .nav .open>a:focus, .skin-green-light .main-header .navbar .nav>.active>a {
+    background: rgba(0,0,0,0.1);
+    color: #f6f6f6;
+}
+
+.skin-green-light .main-header .navbar .navbar-signup {
+  float: left;
+
+  & > button {
+    line-height: 36px;
+    border-color: transparent;
+
+    &:active,
+    &:focus {
+      background-color: #008d4c;
+      outline: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav>li>.dropdown-toggle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-custom-menu .navbar-nav > li > .dropdown-toggle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+  }
+}

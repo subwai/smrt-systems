@@ -1,0 +1,46 @@
+@(title: String, name: String, version: String)()
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>@title</title>
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <!-- Bootstrap 3.3.5 -->
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!-- Ionicons -->
+        <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <!-- Theme style -->
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/AdminLTE.min.css")">
+        <!-- AdminLTE Skins. Choose a skin from the css/skins
+             folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/skins/skin-green-light.min.css")">
+        <!-- iCheck -->
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/plugins/iCheck/flat/blue.css")">
+        <!-- Morris chart -->
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/plugins/morris/morris.css")">
+        <!-- jvectormap -->
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/plugins/jvectormap/jquery-jvectormap-1.2.2.css")">
+        <!-- Date Picker -->
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/plugins/datepicker/datepicker3.css")">
+        <!-- Daterange picker -->
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/plugins/daterangepicker/daterangepicker-bs3.css")">
+        <!-- bootstrap wysihtml5 - text editor -->
+
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/main.css")">
+    </head>
+    <body>
+        <main id='react'></main>
+        <script type="text/javascript">
+            window.name = "@name";
+            window.version = "@version";
+        </script>
+        <script type="text/javascript" src="@routes.Assets.versioned("javascripts/smrt.js")"></script>
+    </body>
+</html>

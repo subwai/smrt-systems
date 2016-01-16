@@ -1,0 +1,33 @@
+{
+  "name": "smrt-systems",
+  "version": "1.0.0",
+  "description": "Smrt-systems scala app",
+  "dependencies": {
+    "browsernizr": "^2.0.1",
+    "classnames": "^2.2.1",
+    "history": "^1.17.0",
+    "modernizr": "^3.2.0",
+    "npm-modernizr": "^2.8.3",
+    "pouchdb": "^5.1.0",
+    "react": "^0.14.3",
+    "react-bootstrap": "^0.28.1",
+    "react-dom": "^0.14.3",
+    "react-loader": "^2.0.0",
+    "react-modal": "^0.6.1",
+    "react-onclickoutside": "^4.5.0",
+    "react-router": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-1": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-notify": "^2.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
+  }
+}

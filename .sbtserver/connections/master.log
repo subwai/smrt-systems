@@ -1,0 +1,35 @@
+New log file opened at Mon Dec 28 19:45:14 PST 2015 by 51086@Adams-MacBook-Air.local
+Taking next connection to: 55094
+New client attempting to connect on port: 55095-55094
+  Address = /192.168.99.1:55094
+This client on port 55095 has uuid 09185fbc-552a-41aa-8620-4f2fca566a8d configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-09185fbc-552a-41aa-8620-4f2fca566a8d
+Taking next connection to: 55094
+New client attempting to connect on port: 55096-55094
+  Address = /192.168.99.1:55094
+Handshake exception on socket: 55096
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 55094
+New client attempting to connect on port: 55097-55094
+  Address = /192.168.99.1:55094
+This client on port 55097 has uuid 783a0084-d663-4a38-b8fe-e98cc315e95a configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-09185fbc-552a-41aa-8620-4f2fca566a8d, activator-783a0084-d663-4a38-b8fe-e98cc315e95a
+Taking next connection to: 55094
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 51086@Adams-MacBook-Air.local logs at Mon Dec 28 19:48:15 PST 2015, goodbye.

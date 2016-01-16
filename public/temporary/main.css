@@ -1,0 +1,9 @@
+html, body, #react, #app, #app > .wrapper {
+  min-height: 100%;
+  height: 100%;
+}
+
+.content-wrapper {
+  padding-bottom: 51px;
+  margin-bottom: 51px;
+}

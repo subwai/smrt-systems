@@ -1,0 +1,85 @@
+.nav > li > .dropdown-toggle {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.nav > li > .dropdown-toggle:focus, .nav > li > .dropdown-toggle:hover {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+.navbar > li > .dropdown-toggle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+.main-header .navbar .nav > li > .dropdown-toggle > .label {
+  position: absolute;
+  top: 9px;
+  right: 7px;
+  text-align: center;
+  font-size: 9px;
+  padding: 2px 3px;
+  line-height: .9;
+}
+
+.skin-green-light .main-header .navbar .nav > li > .dropdown-toggle {
+  color: #fff;
+}
+.skin-green-light .main-header .navbar .nav > .active > .dropdown-toggle, .skin-green-light .main-header .navbar .nav > li > .dropdown-toggle:hover, .skin-green-light .main-header .navbar .nav > li > .dropdown-toggle:active, .skin-green-light .main-header .navbar .nav > li > .dropdown-toggle:focus, .skin-green-light .main-header .navbar .nav > li.open > .dropdown-toggle, .skin-green-light .main-header .navbar .nav > li.open > .dropdown-toggle:hover, .skin-green-light .main-header .navbar .nav > li.open > .dropdown-toggle:focus {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+
+.skin-green-light .main-header .navbar .nav > li > a:hover,
+.skin-green-light .main-header .navbar .nav > li > a:active, .skin-green-light .main-header .navbar .nav > li > a:focus, .skin-green-light .main-header .navbar .nav .open > a, .skin-green-light .main-header .navbar .nav .open > a:hover, .skin-green-light .main-header .navbar .nav .open > a:focus, .skin-green-light .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+
+.skin-green-light .main-header .navbar .navbar-signup {
+  float: left;
+}
+.skin-green-light .main-header .navbar .navbar-signup > button {
+  line-height: 36px;
+  border-color: transparent;
+}
+.skin-green-light .main-header .navbar .navbar-signup > button:active, .skin-green-light .main-header .navbar .navbar-signup > button:focus {
+  background-color: #008d4c;
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > .dropdown-toggle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-custom-menu .navbar-nav > li > .dropdown-toggle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+  }
+}
+.box.box-sale .box-header {
+  cursor: pointer;
+}
+
+html, body, #react, #app, #app > .wrapper {
+  min-height: 100%;
+  height: 100%;
+}
+
+.content-wrapper {
+  padding-bottom: 51px;
+  margin-bottom: -51px;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 768px;
+  }
+}
